@@ -1,0 +1,46 @@
+body{
+    background-color: #2a2a2a;
+    color: white;
+    padding: 0%;
+}
+
+#wrapper{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    width: 132vh;
+    height: 72vh;
+    top: 50%;
+    left: 50%;
+}
+
+.column{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color:white;
+}
+
+.button{
+    width: 20vh;
+    height: 16vh;
+    margin: 1vh;
+    background-color: blueviolet;
+    float: left;
+    border-radius: 1vh;
+    text-align: center;
+    font-size: 8vh;
+    padding: 3.33vh ;
+    box-sizing: border-box;
+}
+
+.list{
+    border-radius: 1vh;
+    width: 31vh;
+    height: 34vh;
+    margin: 1vh;
+    background-color: blueviolet;
+    float: left;
+    text-align: center;
+    padding: 3.33vh ;
+}
