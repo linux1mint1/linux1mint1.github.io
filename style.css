@@ -44,13 +44,13 @@ a.button{
     
 }
 a.button,div.list{
-    box-shadow: 0px 0.5vh 1vh 0.25vh rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0.25vh 1vh 0.25vh rgba(0, 0, 0, 0.65);
 }
 
 a.button:hover,div.list:hover{
     margin-top: 0.75vh;
     margin-bottom: 1.25vh;
-    box-shadow: 0px 0.75vh 1.25vh 0.25vh rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0.5vh 1.25vh 0.25vh rgba(0, 0, 0, 0.65);
 }
 
 a.listItem{
@@ -82,4 +82,6 @@ a:hover{
 
 p{
     font-weight: bold;
+    font-size: 4vh;
+    margin: 2vh;
 }
