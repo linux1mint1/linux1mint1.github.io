@@ -1,5 +1,6 @@
 body{
-    background-color: #2a2a2a;
+    background-color: #19171a;
+    font-family: 'Lato', sans-serif;
     color: white;
     padding: 0%;
 }
@@ -7,7 +8,6 @@ body{
 #wrapper{
     position: absolute;
     transform: translate(-50%,-50%);
-    background-color: black;
     width: 132vh;
     height: 72vh;
     top: 50%;
@@ -18,20 +18,37 @@ body{
     height: 100%;
     width: 50%;
     float: left;
-    background-color:white;
 }
 
-.button{
+a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+a.button{
     width: 20vh;
     height: 16vh;
     margin: 1vh;
-    background-color: blueviolet;
+    background-color: #201e21;
     float: left;
     border-radius: 1vh;
     text-align: center;
     font-size: 8vh;
     padding: 3.33vh ;
     box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+a.listItem{
+    line-height: 1.5em;
+    float: none;
+}
+
+a:hover{
+    color: black;
+    background-color: cyan;
 }
 
 .list{
@@ -39,8 +56,13 @@ body{
     width: 31vh;
     height: 34vh;
     margin: 1vh;
-    background-color: blueviolet;
+    background-color: #201e21;
     float: left;
     text-align: center;
-    padding: 3.33vh ;
+    box-sizing: border-box;
+    font-size: 3vh;
+}
+
+p{
+    font-weight: bold;
 }
