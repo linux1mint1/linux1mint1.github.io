@@ -27,6 +27,16 @@ a{
     transition: 0.15s ease-in-out;
 }
 
+#element{
+    height: 100%;
+    width: 100%;
+    fill: #ffffff;
+    transition: 0.15s ease-in-out;
+}
+#element:hover{
+    fill: #000000;
+}
+
 a.button{
     width: 20vh;
     height: 16vh;
