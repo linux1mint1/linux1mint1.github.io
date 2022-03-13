@@ -27,12 +27,8 @@ a{
     transition: 0.15s ease-in-out;
 }
 
-#element{
-    transition: 0.15s ease-in-out;
-}
-#element:hover{
-    fill: #000000;
-    filter: invert(20%) sepia(97%) saturate(4013%) hue-rotate(353deg) brightness(93%) contrast(127%);
+.svgToIcon{
+    filter: grayscale(100%) brightness(1000%);
 }
 
 a.button{
@@ -59,6 +55,7 @@ a.button:hover,div.list:hover{
     margin-top: 0.75vh;
     margin-bottom: 1.25vh;
     box-shadow: 0px 0.5vh 1.25vh 0.25vh rgba(0, 0, 0, 0.65);
+
 }
 
 a.listItem{
@@ -71,7 +68,6 @@ a.listItem{
 }
 
 a:hover{
-    color: #19171a;
     background-color: #64b4f6;
 }
 
