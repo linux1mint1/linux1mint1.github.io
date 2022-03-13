@@ -28,13 +28,11 @@ a{
 }
 
 #element{
-    height: 100%;
-    width: 100%;
-    fill: #ffffff;
     transition: 0.15s ease-in-out;
 }
 #element:hover{
     fill: #000000;
+    filter: invert(20%) sepia(97%) saturate(4013%) hue-rotate(353deg) brightness(93%) contrast(127%);
 }
 
 a.button{
