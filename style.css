@@ -93,3 +93,13 @@ p{
     font-size: 4vh;
     margin: 2vh;
 }
+
+.raw{
+    width: 100%;
+    height: 25%;
+}
+
+.rawlist{
+    width: 100%;
+    height: 50%;
+}
